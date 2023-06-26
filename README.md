@@ -1,10 +1,6 @@
 # Node.js with Git Dockerfile
 
-[![Docker Automated build](https://img.shields.io/docker/automated/timbru31/node-alpine-git.svg)](https://hub.docker.com/r/timbru31/node-alpine-git/)
-[![buildx Status](https://github.com/timbru31/docker-node-alpine-git/workflows/buildx/badge.svg)](https://github.com/timbru31/docker-node-alpine-git/actions?query=workflow%3Abuildx)
-[![Lint Dockerfiles](https://github.com/timbru31/docker-node-alpine-git/workflows/Lint%20Dockerfiles/badge.svg)](https://github.com/timbru31/docker-node-alpine-git/actions?query=workflow%3A%22Lint+Dockerfiles%22)
-
-A minimal Dockerfile based on Node.js 16 LTS (Gallium), Node.js 18 LTS (Hydrogen) or Node.js 20 (Iron) alpine with Git and ssh installed.
+A minimal Dockerfile based on Node.js 16 LTS (Gallium), Node.js 18 LTS (Hydrogen) or Node.js 20 (Iron) alpine with Git, Github CLI and ssh installed.
 
 ## What's included
 
@@ -12,6 +8,7 @@ A minimal Dockerfile based on Node.js 16 LTS (Gallium), Node.js 18 LTS (Hydrogen
 - npm 8 (Node.js 16) or npm 9 (Node.js >= 18)
 - yarn
 - Git
+- Github CLI
 - ssh
 
 ### Available platforms
@@ -27,4 +24,4 @@ These Dockerfiles leverage the new `buildx` functionality and offer the followin
 
 ---
 
-Built by (c) Tim Brust and contributors. Released under the MIT license.
+Released under the MIT license.
