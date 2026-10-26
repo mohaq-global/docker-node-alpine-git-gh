@@ -1,11 +1,11 @@
 # Node.js with Git Dockerfile
 
-A minimal Dockerfile based on Node.js 16 LTS (Gallium), Node.js 18 LTS (Hydrogen) or Node.js 20 (Iron) alpine with Git, Github CLI and ssh installed.
+A minimal Dockerfile based on Node.js 16 LTS (Gallium), Node.js 18 LTS (Hydrogen), Node.js 20 (Iron) or Node.js 24 LTS (Krypton) alpine with Git, Github CLI and ssh installed.
 
 ## What's included
 
-- Node.js 16 LTS (Gallium), 18 LTS (Hydrogen) or 20 (Iron)
-- npm 8 (Node.js 16) or npm 9 (Node.js >= 18)
+- Node.js 16 LTS (Gallium), 18 LTS (Hydrogen), 20 (Iron) or 24 LTS (Krypton)
+- npm 8 (Node.js 16), npm 9 or 10 (Node.js 18 and 20) or npm 11 (Node.js 24)
 - yarn
 - Git
 - Github CLI
